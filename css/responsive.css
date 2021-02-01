@@ -1,0 +1,30 @@
+@media (max-width:768px){
+
+    .main-content .photos .photo-item img{
+        margin-bottom:10px;
+    }
+    .main-content .photos .photo-item .photo-text-more{
+        position:initial;
+        z-index:3;
+        top:initial;
+        left:initial;
+        width:100%;
+        -webkit-transform:initial;
+        -ms-transform:initial;
+        transform:initial;
+        margin:0 0 20px;
+        -webkit-transition:.3s all ease;
+        -o-transition:.3s all ease;
+        transition:.3s all ease;
+        opacity:1;
+        visibility:initial;
+        text-align:center;
+    }
+
+    .col-12{
+        padding:0!important;
+        border:1px solid gray;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+}
